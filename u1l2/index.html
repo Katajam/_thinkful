@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- build a resume with semantic html -->
+<!-- expected time: 2-3 hours -->
+<html>
+<head>
+<!-- 
+Include a page title (aka, use a <title> element) 
+and meta description in the head.
+ -->
+  <title>Sally Student | About me</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+<!-- 
+Use semantic HTML throughout the page. 
+At a minimum you should use: 
+<header>, <main>, <section>, and <address>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+-->
+
+  <header>
+    <h1>Sally Student</h1>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>About me</h2>
+      <p>I'm an aspiring full stack web developer. I love cats, coding, and crocheting. </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+      </ul>  
+    </section>
+
+<!-- 
+There should be a section for Sally's education, 
+and it should list at least one college she attended.
+ -->
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>University of Waterloo</li>
+      </ul>
+    </section>
+
+<!-- 
+There should be a section for Sally's employment history, 
+and it should contain at least two entries. 
+Each entry should show the company name, job title, dates of employment, 
+and a short description of the job (for this last bit, 
+feel free to use lorem ipsum filler text).
+http://www.lipsum.com/
+ -->
+    <section>
+
+      <h2>Employment History</h2>
+
+      <div>
+        <h3>Front-end Developer at Google</h3>
+        <time>September 2015<time> - <time>July 2016<time>
+        <p>Nam mollis cursus augue. Maecenas pharetra ipsum non fringilla porttitor. Pellentesque ipsum purus, efficitur vel velit ac, fermentum posuere odio. Aliquam quis rhoncus tortor, eget congue odio. Vivamus sollicitudin mollis lobortis. In fermentum nibh augue, eget rutrum quam dictum facilisis. Cras sagittis mi a ex consequat, sit amet sollicitudin elit consectetur. Quisque mi dui, placerat vitae ligula non, lobortis accumsan leo. </p>
+      </div>
+
+      <div>
+        <h3>Front-end Developer at Facebook</h3>
+        <time>May 2014<time> - <time>August 2015<time>
+        <p>Vivamus quam elit, gravida sed dignissim non, suscipit in neque. Maecenas vitae nisi vitae felis accumsan rhoncus. Nulla facilisi. Vestibulum volutpat quam ut metus viverra, quis vehicula eros rhoncus. Sed ac odio dui. Curabitur vulputate lorem a metus mollis, eu dignissim purus tempus. Phasellus dictum sagittis turpis vitae pharetra. Ut faucibus est quam, in egestas ligula hendrerit nec. Vestibulum rutrum tempor auctor. Morbi vestibulum magna vitae dui sodales rutrum vitae id magna. </p>
+      </div>
+
+    </section>
+
+
+<!-- 
+There should be a contact info section, 
+with the following information about Sally:
+
+    Name
+    Email address (make one up) as a link
+    Phone number (make one up)
+    A picture
+ -->
+
+    <section>
+      <h2>Contact Info</h2>
+      <address>
+        <p>Feel free to contact me.</p>
+        <p>Name: Sally</p>
+        <p>Email:<a href="mailto:sally@gmail.com">sally@gmail.com</a></p>
+        <p>Phone:(111)-111-1111</p>
+        <img src="http://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" alt="Sally">
+      </address>
+    </section>
+
+  </main>
+
+</body>
+</html>
