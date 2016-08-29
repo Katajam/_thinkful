@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea | Sign up</title>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<img src="logo.png" class="logo">
+
+	<!-- 
+	A simple sign up form, only email and password are required.
+	 -->
+	<form class="signup-form" action="/signup" method="post">
+
+		<legend>Sign up</legend>
+
+		<label for="user-email">Email</label>
+		<input type="email" placeholder="foo@bar.com" required>
+
+		<label for="user-pwd">Password</label>
+		<input type="password" placeholder="1234passw0rd" required>
+
+		<button type="submit">Sign up</button>
+
+		<p><a href="/forgot_password/new">Forgot password?</a></p>
+
+	</form>
+
+	<div class="footer">
+		<p>Already have an account? <a href="/login">Log in<a></p>
+	</div>
+
+</body>
+</html>
